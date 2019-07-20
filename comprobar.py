@@ -62,7 +62,7 @@ if __name__ == '__main__':
 		itemlist = xmldoc.getElementsByTagName("buscar")
 
 		for i in itemlist:
-			buscar(i.attributes["web"].value,i.attributes["valor"].value,i.firstChild.nodeValue)
+			buscar(i.attributes["web"].value,i.attributes["valor"].value,i.attributes["texto"].value)
              
     else :
 		buscar(args.web,args.buscar,args.texto)
