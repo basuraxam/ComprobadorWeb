@@ -1,5 +1,7 @@
-
 <Comprobador>
-	<buscar id="zorin15lite" valor="lite" web="https://sourceforge.net/projects/zorin-os/files/15">Zorin 15 Lite</buscar>
+	<buscar id="zorin15lite" valor="lite" web="https://sourceforge.net/projects/zorin-os/files/15">Zorin 15 lite (LO ENCONTRE TODO)</buscar>
 	<buscar id="lmint192" valor="19.2" web="http://mirrors.evowise.com/linuxmint/stable/">linux Mint 19.2</buscar>
+	<buscar id="zorin15Lite" valor="Lite" web="https://sourceforge.net/projects/zorin-os/files/15">Zorin 15 Lite</buscar>
 </Comprobador>
+
+
