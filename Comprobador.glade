@@ -11,13 +11,6 @@
       <!-- column-name Texto -->
       <column type="gchararray"/>
     </columns>
-    <data>
-      <row>
-        <col id="0" translatable="yes">www.zorin.com</col>
-        <col id="1" translatable="yes">lite</col>
-        <col id="2" translatable="yes">zorin 15 lite</col>
-      </row>
-    </data>
   </object>
   <object class="GtkWindow" id="window1">
     <property name="can_focus">False</property>

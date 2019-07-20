@@ -1,7 +1,1 @@
-<Comprobador>
-	<buscar id="zorin15lite" valor="lite" web="https://sourceforge.net/projects/zorin-os/files/15">Zorin 15 lite (LO ENCONTRE TODO)</buscar>
-	<buscar id="lmint192" valor="19.2" web="http://mirrors.evowise.com/linuxmint/stable/">linux Mint 19.2</buscar>
-	<buscar id="zorin15Lite" valor="Lite" web="https://sourceforge.net/projects/zorin-os/files/15">Zorin 15 Lite</buscar>
-</Comprobador>
-
-
+<Comprobador><buscar texto="Zorin 15 lite (SI HAY INTERNET LO ENCONTRARA)" valor="lite" web="https://sourceforge.net/projects/zorin-os/files/15" /><buscar texto="linux Mint 19.2" valor="19.2" web="http://mirrors.evowise.com/linuxmint/stable/" /><buscar texto="Zorin 15 Lite" valor="Lite" web="https://sourceforge.net/projects/zorin-os/files/15" /><buscar texto="GOOGLE TIENE QUE EXISTIR" valor="google" web="www.google.es" /></Comprobador>
