@@ -1,5 +1,9 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+
+#Instalación : 
+#  sudo apt install python-pip
+#pip install requests
 
 import requests
 import sys
@@ -58,14 +62,13 @@ if __name__ == '__main__':
 
 
     if args.file != "":
-		xmldoc = minidom.parse(args.file)
-		itemlist = xmldoc.getElementsByTagName("buscar")
-
-		for i in itemlist:
-			buscar(i.attributes["web"].value,i.attributes["valor"].value,i.attributes["texto"].value)
+        xmldoc = minidom.parse(args.file)
+        itemlist = xmldoc.getElementsByTagName("buscar")
+        for i in itemlist:
+            buscar(i.attributes["web"].value,i.attributes["valor"].value,i.attributes["texto"].value)
              
-    else :
-		buscar(args.web,args.buscar,args.texto)
+    else:
+        buscar(args.web,args.buscar,args.texto)
 
     try:
         input("Press enter to continue")
